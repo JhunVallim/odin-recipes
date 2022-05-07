@@ -1,0 +1,97 @@
+h1,
+p,
+img,
+body,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  background-image: url(https://mcdn.wallpapersafari.com/medium/26/81/WvZyY1.jpg);
+  background-color: #e8e8e8;
+}
+
+.content {
+  position: relative;
+  margin: auto;
+  width: 900px;
+  height: 100vh;
+  background: #f1f1f1;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 1px #000;
+}
+
+.title {
+  font-family: Calibri, Helvetica, sans-serif;
+  font-size: 30px;
+  padding: 30px 30px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.banner {
+  width: 100%;
+  height: 400px;
+}
+
+.homeLink {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  text-transform: uppercase;
+}
+
+.bestRecipes h2 {
+  font-family: Calibri, Helvetica, sans-serif;
+  padding: 40px 0px 20px 0px;
+}
+
+.recipesList {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0;
+}
+
+.recipesList img {
+  width: 200px;
+  height: 150px;
+  vertical-align: middle;
+  border-radius: 4px;
+  box-shadow: 0 0 2px 1px #000;
+}
+
+.recipesList li {
+  list-style: none;
+}
+
+.stepsList li {
+  list-style: none;
+  font-family: Calibri, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+.caption {
+  font-family: Calibri, Helvetica, sans-serif;
+  font-size: 20px;
+  background: #e8e8e8;
+  margin-top: 0;
+}
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-family: Calibri, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
